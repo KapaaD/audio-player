@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nome-musica": "Releitura de classicos em Drill ",
+        "nome-banda": "TrapMusicHDTV",
+        "image": "/imgs/mozart-releitura-classicos-drill.jpg",
+        "audio": "/musicas/mozart-releitura-classicos-drill-beat.mp3" 
+    },
+    
+    {
+        "id": 2,
+        "nome-musica": "Sinfonia do Drill",
+        "nome-banda": "L.e.s",
+        "image": "/imgs/mozart-sinfonia-drill.jpg",
+        "audio": "/musicas/mozart-sinfonia-drill-beat.mp3" 
+    },
+    
+    {
+        "id": 3,
+        "nome-musica": "Turkish Drill",
+        "nome-banda": "ZAC93",
+        "image": "/imgs/mozart-turkish-drill.jpg",
+        "audio": "/musicas/mozart-turkish-drill-beat.mp3" 
+    }
+    
+]

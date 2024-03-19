@@ -1,0 +1,101 @@
+body {
+    background-color: #3B585D;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player {
+    width: 23em;
+}
+
+.depois-capa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 5vw 1em 5vw; 
+    width: 23em;    
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+.bottoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nomes {
+    display: flex;
+    align-self: start;
+    flex-direction: column;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.button {
+    font-size: 2em;
+}
+
+.button-navigate {
+    font-size: 3em;
+}
+
+.button-big {
+    font-size: 4em;
+}
+
+#capa {
+    height: 70vh; /* Altura responsiva */
+    width: 23em; /* Largura responsiva */
+    max-width: 450px; /* Largura máxima */
+}
+
+#nome-album {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 4em 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#nome-musica {
+    font-size: 1.5em;
+    font-weight: bolder;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.cor-leve {
+    color: #8B999C;
+}
+
+#bar {
+    background-color: #8B999C;
+    height: 0.3rem;
+    border-radius: 20px;
+    margin-bottom: 2em;
+    width: 23em; /* Largura responsiva */
+}
+
+#progresso {
+    background-color: white;
+    height: inherit;
+    border-radius: inherit;
+    width: 50%;
+}
+
